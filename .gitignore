@@ -1,0 +1,27 @@
+my-personal-website/.idea/
+my-personal-website/.vscode/
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+my-personal-website/node_modules
+my-personal-website/.pnp
+my-personal-website/.pnp.js
+
+# testing
+my-personal-website/coverage
+
+# production
+my-personal-website/build
+
+# misc
+my-personal-website/.DS_Store
+my-personal-website/.env.local
+my-personal-website/.env.development.local
+my-personal-website/.env.test.local
+my-personal-website/.env.production.local
+
+my-personal-website/npm-debug.log*
+my-personal-website/yarn-debug.log*
+my-personal-website/yarn-error.log*
