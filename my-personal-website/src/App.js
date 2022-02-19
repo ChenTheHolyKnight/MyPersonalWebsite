@@ -4,6 +4,7 @@ import { SideNavigation } from './componenets/side-navigation/sideNavigation';
 import Header from './componenets/header';
 import Introduciton from './componenets/sections/introduction';
 import Home from './componenets/sections/home';
+import ExperiencePage from './componenets/sections/experience';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         </div>
         <div className="min-h-screen ml-24" id="section-2"> 
           <Introduciton></Introduciton>
+        </div>
+        <div className="min-h-screen ml-24 mt-5" id="section-3"> 
+          <ExperiencePage></ExperiencePage>
         </div>
       </div>
       <div>
