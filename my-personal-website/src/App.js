@@ -5,6 +5,8 @@ import Header from './componenets/header';
 import Introduciton from './componenets/sections/introduction';
 import Home from './componenets/sections/home';
 import ExperiencePage from './componenets/sections/experience';
+import ProjectPage from './componenets/sections/project';
+import Contact from './componenets/sections/contact';
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
         </div>
         <div className="min-h-screen ml-24 mt-5" id="section-3"> 
           <ExperiencePage></ExperiencePage>
+        </div>
+        <div className="min-h-screen ml-24 mt-5" id="section-5"> 
+          <Contact></Contact>
         </div>
       </div>
       <div>

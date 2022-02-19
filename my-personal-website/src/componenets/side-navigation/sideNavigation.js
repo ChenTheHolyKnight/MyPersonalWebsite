@@ -6,7 +6,7 @@ import "./sideNavigation.css"
 export const SideNavigation = () => {
     return (
         <div className="fixed nav">
-            <Scrollspy items={ ['section-1', 'section-2','section-3'] } currentClassName="active">
+            <Scrollspy items={ ['section-1', 'section-2','section-3','section-5'] } currentClassName="active">
                 <li>
                     <Dot></Dot>                  
                     <a href="#section-1">Home</a>
@@ -18,10 +18,6 @@ export const SideNavigation = () => {
                 <li>
                     <Dot></Dot>
                     <a href="#section-3">Experience</a>  
-                </li>
-                <li>
-                    <Dot></Dot>
-                    <a href="#section-4">Projects</a>  
                 </li>
                 <li>
                     <Dot></Dot>
